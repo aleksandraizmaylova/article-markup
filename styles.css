@@ -3,7 +3,6 @@
 header {
     display: block;
     width: 100%;
-    background-color: #efeeed;
 }
 
 header {
@@ -112,7 +111,45 @@ code{
     gap: 10px;
 }
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+
+    nav{
+        padding: 0;
+        margin: 0;
+        justify-content: flex-start;
+        display: flex;
+    }
+
+    li {
+        display: block;
+        margin: 10px 0;
+        font-size:20px;
+        line-height:25px;
+
+
+    }
+
+    .body{
+        padding: 20px;
+    }
+
+    h1 {
+        font-size:26px;
+        line-height:28px;
+    }
+    h2 {
+        font-size:26px;
+        line-height:28px;
+    }
+    p{
+        font-size:18px;
+        line-height:22px;
+    }
+
+    header img {
+        width:101px;
+    }
+
+    img {
+        width: 520px;
+    }
 }
